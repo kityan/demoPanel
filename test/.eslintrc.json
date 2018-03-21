@@ -1,0 +1,11 @@
+{
+  "env": {
+    "mocha": true,
+    "jasmine": true
+  },
+  "globals": {
+    "request": true,
+    "url": true,
+    "data": true
+  }
+}
