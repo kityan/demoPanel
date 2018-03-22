@@ -24,7 +24,7 @@ Set token in header `Authorization: Bearer <token>` if needed.
 | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |
 | Get all tasks | GET | /tasks  | yes |   | {tasks: `Task[]`} |
 | Get task by id| GET | /task/:id  | yes |  | {task: `Task`}  |
-| Create task | POST | /tasks  | yes |  `TaskData`   | {id: `{number}`} |
+| Create task | POST | /tasks  | yes |  `CreateTaskData`   | {id: `{number}`} |
 | Delete task | DELETE | /task/:id  | yes |    |  |
 | Update task | PUT | /task/:id | yes |  `UpdateTaskData`   | |
 
